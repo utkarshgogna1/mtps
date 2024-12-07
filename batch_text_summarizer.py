@@ -99,7 +99,7 @@ def preprocess_transcription(text):
     # Replace typographic apostrophes
     text = text.replace('’', "'")
 
-    # Removing filter words
+    # Remove filter words
     filler_words = [
         'um', 'uh', 'you know', 'like', 'i mean', 'hmm', 'ah', 'er', 'uhm',
         'you see', 'basically', 'actually', 'sort of', 'kind of', 'you know what i mean',

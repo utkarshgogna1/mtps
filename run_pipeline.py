@@ -7,7 +7,7 @@ def run_pipeline():
     print("\n=== Starting Pipeline Execution ===")
     start_time = time.time()
     
-    # Create the demo directory if it doesn't exist
+    # Creating the demo directory if it doesn't exist
     os.makedirs("demo", exist_ok=True)
     
     try:

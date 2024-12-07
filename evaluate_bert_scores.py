@@ -68,7 +68,7 @@ def main():
     with open(report_path, 'w', encoding='utf-8') as report:
         report.write("=== BERTScore Self-Similarity Report ===\n\n")
 
-        # Iterate over generated summary files in the base directory
+        # Iterating over generated summary files in the base directory
         for file_name in os.listdir(base_dir):
             if not (file_name.startswith("transcription_") and file_name.endswith("_summarized.txt")):
                 continue

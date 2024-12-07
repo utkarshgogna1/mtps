@@ -13,7 +13,7 @@ def calculate_wer_for_file(filepath: str) -> Dict:
         # Split content to get original and transcribed text
         sections = content.split('\n\n')
         
-        # Extracting metadata and texts
+        # Extract metadata and texts
         metadata = {}
         for line in sections[0].split('\n'):
             if ':' in line:
